@@ -134,6 +134,21 @@ Reliability → Multi-AZ deployment
 Performance → CloudFront + Auto Scaling
 Cost → Stop unused instances
 Security → IAM + encryption
+
+
+
+“In a real-time e-commerce application, we design the architecture using AWS Well-Architected Framework principles.
+
+We use CloudFront for low-latency content delivery, Application Load Balancer to distribute traffic, EC2 or containers for application hosting, RDS for database, and S3 for storage.
+
+For Operational Excellence, we use CI/CD and Infrastructure as Code.
+For Security, we implement IAM roles, encryption, and secure networking.
+For Reliability, we deploy across multiple Availability Zones with auto scaling and failover.
+For Performance Efficiency, we use caching and scaling strategies.
+For Cost Optimization, we apply right-sizing and pay-as-you-go principles.
+For Sustainability, we use efficient and serverless services.
+
+This ensures a scalable, secure, and highly available architecture.”
 Ops → CI/CD pipeline
 Sustainability → Efficient instance types
 
